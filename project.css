@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6fc;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #4a6cf7;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Current Project Section */
+.current-project {
+  padding: 2rem;
+}
+
+.current-project h2 {
+  text-align: center;
+  color: #4a6cf7;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  border-left: 6px solid #4a6cf7;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Project Section */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+}
+
+.project-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h2, 
+.project-card h3 {
+  margin-top: 0;
+  color: #4a6cf7;
+}
+.btn {
+    margin : 5px ;
+    background : blue ;
+    font-weight : bold ;
+    border : none
+}
+.btn a{
+   color : white ;
+   text-decoration : none;
+}
